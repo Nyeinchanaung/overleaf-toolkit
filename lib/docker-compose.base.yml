@@ -3,6 +3,7 @@ services:
 
     sharelatex:
         restart: always
+        platform: linux/amd64
         image: "${IMAGE}"
         container_name: sharelatex
         volumes:
